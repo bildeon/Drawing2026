@@ -1,0 +1,1 @@
+import{a as o}from"./indexhtml-Bu9lwJzR.js";const a=o`vaadin-text-field.bordered::part(input-field){box-shadow:inset 0 0 0 1px var(--lumo-contrast-30pct);background-color:var(--lumo-base-color)}`;export{a as $};

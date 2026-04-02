@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "D:/cm5c/Drawing2025-venkat-drawing/Drawing2025-venkat-drawing/./frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "D:/cm5c/Drawing2025-venkat-drawing/Drawing2025-venkat-drawing/./frontend/generated/jar-resources",
+  "staticOutput": "D:/cm5c/Drawing2025-venkat-drawing/Drawing2025-venkat-drawing/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "D:\\cm5c\\Drawing2025-venkat-drawing\\Drawing2025-venkat-drawing\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "D:\\cm5c\\Drawing2025-venkat-drawing\\Drawing2025-venkat-drawing\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "D:/cm5c/Drawing2025-venkat-drawing/Drawing2025-venkat-drawing/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "D:/cm5c/Drawing2025-venkat-drawing/Drawing2025-venkat-drawing/target/dev-bundle/config",
+  "jarResourcesFolder": "D:/cm5c/Drawing2025-venkat-drawing/Drawing2025-venkat-drawing/./frontend/generated/jar-resources",
+  "themeName": "flowcrmtutorial",
+  "clientServiceWorkerSource": "D:\\cm5c\\Drawing2025-venkat-drawing\\Drawing2025-venkat-drawing\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

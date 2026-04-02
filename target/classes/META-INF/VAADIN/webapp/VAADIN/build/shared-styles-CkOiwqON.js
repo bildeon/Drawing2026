@@ -1,0 +1,1 @@
+import{a as o}from"./indexhtml-Bu9lwJzR.js";const r=o`#svg-canvas{background-color:#fff;position:relative;z-index:0}.gallery-image{border:1px solid #ccc;margin:4px;cursor:pointer}.menu-header{font-weight:700;font-size:18px}.v-vertical-layout{z-index:1}`;export{r as $};

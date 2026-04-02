@@ -1,0 +1,5 @@
+import{d as a}from"./chunk-3e8b0a89765577764afe6d722a961843944bdb3dbcfcdcfbb1d232dac307117f-tdYxQxOB.js";/**
+ * @license
+ * Copyright (c) 2021 - 2024 Vaadin Ltd.
+ * This program is available under Apache License Version 2.0, available at https://vaadin.com/license/
+ */const t=new ResizeObserver(i=>{setTimeout(()=>{i.forEach(s=>{s.target.resizables?s.target.resizables.forEach(e=>{e._onResize(s.contentRect)}):s.target._onResize(s.contentRect)})})}),r=a(i=>class extends i{get _observeParent(){return!1}connectedCallback(){if(super.connectedCallback(),t.observe(this),this._observeParent){const e=this.parentNode instanceof ShadowRoot?this.parentNode.host:this.parentNode;e.resizables||(e.resizables=new Set,t.observe(e)),e.resizables.add(this),this.__parent=e}}disconnectedCallback(){super.disconnectedCallback(),t.unobserve(this);const e=this.__parent;if(this._observeParent&&e){const n=e.resizables;n&&(n.delete(this),n.size===0&&t.unobserve(e)),this.__parent=null}}_onResize(e){}});export{r as R};
