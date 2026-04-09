@@ -359,6 +359,8 @@ public class MainViewSave extends HorizontalLayout  {
     }
 
     private void addToCanvas(SvgImage svg) {
+        // Show SVG name in the div
+        svg_name.setText(svg.getName());
         String itemId = "item-" + java.util.UUID.randomUUID();
 
         UI.getCurrent().getPage().executeJs("""
